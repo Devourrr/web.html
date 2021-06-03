@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+<meta charset="UTF-8">
+<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+<title>output</title>
+</head>
+<body>
+
+<h2>The output Element</h2>
+
+<form action="https://www.w3schools.com/action_page.php"
+	oninput="x.value = parseInt(a.value)+parseInt(b.value)"
+	<!--  oninput속성은 이벤트처리 속성으로 입력시 처리하는 속성으로 자바스크립트 문장이 올 수 있음 -->
+	0
+	<input type="range" id="a" name="a" value="50"><!-- range창은 슬라이드 바 형태 입력창 -->
+	100 +
+	<input type="number" id="b" name="b" value"50"><!-- number는 숫자만 입력하는 창 -->
+	=
+	<output name="x" for="a b"></output>
+	<br><br>
+	<input type="submit">
+</form>
+
+</body>
+</html>
